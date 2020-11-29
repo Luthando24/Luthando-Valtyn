@@ -1,0 +1,61 @@
+body {
+    background:url(image4.JPEG);
+    height:100vh;
+-webkit-background-size:cover;
+background-size:cover;
+background-position:center center;
+position: relative;
+}
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color:#778899;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+li a:hover:not(.active) {
+background-color: turquoise;
+}
+
+.active {
+background-color: steelblue;
+}
+.container {
+    width: 500px;
+    margin: 50px auto 0;
+    padding: 20px;
+}
+// Smooth scrolling IF user doesn't have a preference due to motion sensitivities
+@media screen and (prefers-reduced-motion: no-preference) {
+  html,
+  body {
+    scroll-behavior: smooth;
+  }
+}
+.back-to-top-link {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 2rem;
+    line-height: 3rem;
+    text-align: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: #D6E3F0;
+    // emoji don't behave like regular fonts
+    // so this helped position it correctly
+    padding: 0.25rem;
+  }
