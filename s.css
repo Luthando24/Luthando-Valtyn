@@ -1,0 +1,100 @@
+body {
+    background:url(image4.JPEG);
+    
+    height: 100vh;
+    -webkit-background-size: cover;
+    background-size:cover;
+    background-position:center center;
+    position: relative;
+    }
+    
+    img {
+      border: 7px solid #555;
+    }
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      }
+    
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color:#778899;
+    }
+    
+    h1 {
+        display: block;
+        font-size: 2em;
+        margin-block-start: 0.67em;
+        margin-block-end: 0.67em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+    }
+    li {
+        float: left;
+    }
+    
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 12px 14px;
+        text-decoration: none;
+    }
+    
+    li a:hover:not(.active) {
+        background-color: turquoise;
+    }
+    
+    .active {
+        background-color: steelblue;
+      
+    }
+    .fa {
+      padding: 20px;
+      font-size: 30px;
+      width: 20px;
+      text-align: center;
+      text-decoration: none;
+    }
+    
+    
+    .fa:hover {
+      opacity: 0.7;
+    }
+    
+    .center {
+      text-align: center;
+      border: 3px solid green;
+    }
+    
+    
+    .fa-facebook {
+      background: #3B5998;
+      color: white;
+      
+    }
+    .fa-twitter {
+      background: #55ACEE;
+      color: white;
+    }
+    .fa-whatsapp {
+      background: #55ee5d;
+      color: white
+    }
+    .fa-github {
+      background: #364753;
+      color: white
+    }
+    .fa-linkedin {
+      background: #55ACEE;
+      color: white 
+    }
+    .fa-padlet {
+      background: #55ACEE;
+      color: white;
